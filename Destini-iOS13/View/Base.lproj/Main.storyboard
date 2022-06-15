@@ -20,17 +20,17 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-y5-jFe">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="WzE-9r-HtE">
-                                <rect key="frame" x="0.0" y="72" width="414" height="790"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WzE-9r-HtE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8aR-sX-q7R">
-                                        <rect key="frame" x="20" y="0.0" width="374" height="584"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="618"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY3-mb-Gr7">
-                                        <rect key="frame" x="20" y="587" width="374" height="100"/>
+                                        <rect key="frame" x="20" y="618" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="PEM-Vf-vrS"/>
                                         </constraints>
@@ -40,7 +40,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-f0-RtL">
-                                        <rect key="frame" x="20" y="690" width="374" height="100"/>
+                                        <rect key="frame" x="20" y="718" width="374" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Jva-d3-ZeL"/>
                                         </constraints>
@@ -63,7 +63,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="WzE-9r-HtE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="28" id="8yw-VF-T5D"/>
+                            <constraint firstItem="WzE-9r-HtE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8yw-VF-T5D"/>
                             <constraint firstItem="WzE-9r-HtE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9yv-IJ-vmQ"/>
                             <constraint firstAttribute="bottom" secondItem="NEu-y5-jFe" secondAttribute="bottom" id="C0w-2e-4DJ"/>
                             <constraint firstItem="WzE-9r-HtE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CiG-Ku-RzI"/>
