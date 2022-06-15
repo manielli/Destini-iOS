@@ -41,4 +41,17 @@ struct StoryBrain {
           choice2: "End", choice2Destination: 0
         )
     ]
+    var storyNumber = 0
+    
+    func getTitleLabelText() -> String {
+        return stories[storyNumber].title
+    }
+    
+    func getChoice1Title() -> String {
+        return stories[storyNumber].choice1
+    }
+    
+    func getChoice2Title() -> String {
+        return stories[storyNumber].choice2
+    }
 }
