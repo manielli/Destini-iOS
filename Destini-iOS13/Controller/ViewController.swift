@@ -23,6 +23,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func choiceButtonSelected(_ sender: UIButton) {
+        let userChoice = sender.currentTitle!
+        
+        story.determineUserDestination(userChoice)
+        
+        updateUI()
     }
     
     func updateUI() {
